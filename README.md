@@ -19,6 +19,9 @@ Turn your foolish ideas into brilliant businesses.
     - Manage users
     - View feedback
     - Configure A/B tests
+- Cloud functions
+    - Sign up email
+    - Image resizing    
 - Landing page
     - SEO
     - App store badges
@@ -28,3 +31,5 @@ Turn your foolish ideas into brilliant businesses.
     - Database setup
     - Development environment setup
     - A/B test how-tos        
+
+#       
