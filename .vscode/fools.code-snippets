@@ -1,0 +1,24 @@
+{
+  "Coming Soon": {
+    "prefix": "fComingSoon",
+    "scope": "markdown",
+    "body": [
+      ":::tip[${1:Coming Soon}]",
+      "${2:Documentation will be added shortly}",
+      ":::"
+    ],
+    "description": "Creates a coming soon tip block"
+  },
+  "Resources": {
+    "prefix": "fResources",
+    "scope": "markdown",
+    "body": [
+      ":::note[Resources]",
+      "- [Resource 1](https://www.example.com)",
+      "- [Resource 2](https://www.example.com)",
+      "- [Resource 3](https://www.example.com)",
+      ":::"
+    ],
+    "description": "Creates a resources tip block"
+  }
+}

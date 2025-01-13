@@ -3,15 +3,18 @@ title: Introduction
 description: Welcome to FoolScript
 ---
 
-FoolScript is a set of templates for kickstarting your software project. 
+FoolScript is a system for kickstarting your software project. 
 
-## Templates
+## System
+
 FoolScript includes the following components:
-- A cross-platform Flutter application
-- CI/CD pipelines for deploying to Google Play, the App Store, and the web
-- A web and mobile admin application built with Flutter
-- A mobile app landing page built with Preact and TypeScript
-- Cloud Functions for common automations
+- [Template] A cross-platform Flutter application
+- [Template] A web and mobile admin application built with Flutter
+- [Template] A mobile app landing page built with Preact and TypeScript
+- [Tool] A command line interface for pulling template updates and building new features
+- [Tool] A VS Code chat extension tailor-made for the FoolScript system
+- [Tool] CI/CD pipelines for deploying to Google Play, the App Store, and the web
+- [Tool] Cloud Functions for common automations
 
 FoolScript supports several platforms, including Firebase, Supabase, PocketBase, and AppWrite. The template repository is structured so you can easily switch between these platforms using Git or our Fool's CLI.
 

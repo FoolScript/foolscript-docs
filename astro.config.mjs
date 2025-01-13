@@ -6,40 +6,44 @@ import markdoc from "@astrojs/markdoc";
 
 // https://astro.build/config
 export default defineConfig({
-  integrations: [starlight({
-    title: "FoolScript",
-    social: {
-      github: "https://github.com/sponsors/jtmuller5",
-    },
-    sidebar: [
-      {
-        label: "Overview",
-        items: [
-          { label: "Introduction", slug: "start/introduction" },
-          { label: "Quick Start", slug: "start/quick-start" },
-          { label: "App", slug: "start/app" },
-          { label: "Admin App", slug: "start/admin-app" },
-          { label: "Landing Page", slug: "start/landing-page" },
-          { label: "CLI", slug: "start/cli" },
-        ],
+  integrations: [
+    starlight({
+      title: "FoolScript",
+      social: {
+        github: "https://github.com/sponsors/jtmuller5",
       },
-      {
-        label: "Platforms",
-        items: [
-          { label: "Firebase", slug: "platforms/firebase" },
-          { label: "Supabase", slug: "platforms/supabase" },
-          { label: "PocketBase", slug: "platforms/pocketbase" },
-          { label: "AppWrite", slug: "platforms/appwrite" },
-        ],
-      },
-      {
-        label: "Integrations",
-        items: [
-          { label: "Amplitude", slug: "integrations/amplitude" },
-          { label: "PostHog", slug: "integrations/posthog" },
-          { label: "RevenueCat", slug: "integrations/revenuecat" },
-        ],
-      },
-    ],
-  }), markdoc()],
+      sidebar: [
+        {
+          label: "Overview",
+          items: [
+            { label: "Introduction", slug: "overview/introduction" },
+            { label: "Quick Start", slug: "overview/quick-start" },
+            { label: "App", slug: "overview/app" },
+            { label: "Admin App", slug: "overview/admin-app" },
+            { label: "Landing Page", slug: "overview/landing-page" },
+            { label: "CLI", slug: "overview/cli" },
+            { label: "VS Code Extension", slug: "overview/vs-code-extension" },
+          ],
+        },
+        {
+          label: "Platforms",
+          items: [
+            { label: "Firebase", slug: "platforms/firebase" },
+            { label: "Supabase", slug: "platforms/supabase" },
+            { label: "PocketBase", slug: "platforms/pocketbase" },
+            { label: "AppWrite", slug: "platforms/appwrite" },
+          ],
+        },
+        {
+          label: "Integrations",
+          items: [
+            { label: "Amplitude", slug: "integrations/amplitude" },
+            { label: "PostHog", slug: "integrations/posthog" },
+            { label: "RevenueCat", slug: "integrations/revenuecat" },
+          ],
+        },
+      ],
+    }),
+    markdoc(),
+  ],
 });
