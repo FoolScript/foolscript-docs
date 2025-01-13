@@ -3,6 +3,7 @@ title: AppWrite
 description: AppWrite provides authentication, data storage, and file storage
 ---
 
+[AppWrite](https://appwrite.io/) is an open-source backend server that helps you build web and mobile apps faster. AppWrite provides authentication, data storage, and file storage.
 
 ## Setup
 

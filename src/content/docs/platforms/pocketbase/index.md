@@ -3,10 +3,13 @@ title: PocketBase
 description: PocketBase provides authentication, data storage, and file storage
 ---
 
-## Before Generating Your App
+[PocketBase](https://pocketbase.io/) is a no-code backend platform that provides authentication, data storage, and file storage.
+
+## Setup
+### Before Generating Your App
 Download the prebuilt PocketBase app: https://pocketbase.io/
 
-### Development
+#### Development
 
 To run the PocketBase server during development, open a terminal and navigate to the directory where PocketBase was installed. Run the following command:
 ```
@@ -15,13 +18,13 @@ To run the PocketBase server during development, open a terminal and navigate to
 
 The server should start up at `http://127.0.0.1:8090` (this will be the POCKETBASE_URL you use during development.)
 
-### Production
+#### Production
 When you are ready to ship your app to production, visit [pockethost.io](https://pockethost.io/) to set up a new server.
 
 
-## After Generating Your App
+### After Generating Your App
 
-### Config.json
+#### Config.json
 After creating your PocketBase project, add the following variables to your `config.json` file:
 
 ```
@@ -37,7 +40,7 @@ The POCKETBASE_URL for development will be displayed after running `.pocketbase 
 
 For PocketBase servers hosted on PocketHost, you can find the URL by selecting your app name under the "Dashboard" section of the sidebar:
 
-Dashboard -> {Your Project} -> Overview -> Getting Started
+> Dashboard -> {Your Project} -> Overview -> Getting Started
 
 ![PocketBase connection instructions](https://github.com/jtmuller5/flutter_fast_cli/raw/main/doc/pocketbase/pocketbase-setup.png)
 
