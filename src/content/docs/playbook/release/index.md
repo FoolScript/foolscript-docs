@@ -11,7 +11,6 @@ Releasing a Flutter app isn't necessarily simple. There are a hundred and one th
 You can read more about [releasing an Android Flutter app here](https://flutter-ko.dev/deployment/android).
 :::
 
-
 ### Build & Release
 
 #### Sign App
@@ -31,6 +30,25 @@ For subsequent releases, run the Fastlanes:
 cd android
 fastlane internal
 ```
+
+#### Fastlane
+
+:::note
+You can use a single Fastlane Key for all Google Play apps. To add a new app: 
+1. Open the Google Play Console
+2. Navigate to Users and Permissions
+3. Select your Fastlane service account
+4. Select "Add app"
+5. Select your app and Save Changes 
+:::
+
+[Create a new service account](https://docs.fastlane.tools/actions/supply/#setup) for Fastlane if you don't have one already.
+
+In the `android/fastlane/Appfile` file, update the `json_key_file` and `package_name` entries to match your project's values.
+
+:::caution
+If you don't want to send Slack notifications for new releases, delete or comment out the `send_slack_notification` functions in the android Fastfile
+:::
 
 ### Assets
 
@@ -59,6 +77,8 @@ You can read more about [releasing an iOS Flutter app here](https://flutter-ko.d
 :::
 
 ### Build & Release
+
+#### Build
 For the first release:
 ```agsl
 flutter build ipa
@@ -69,6 +89,19 @@ For subsequent releases, run the Fastlanes:
 cd ios
 fastlane beta
 ```
+
+#### Fastlane
+
+:::note
+[Read more about the Appfile](https://docs.fastlane.tools/advanced/Appfile/#appfile)
+:::
+
+In the `ios/fastlane/Appfile` file, update the `app_identifier`, `apple_id`, `itc_team_id`, and `team_id` entries to match your project's values.
+
+:::caution
+If you don't want to send Slack notifications for new releases, delete or comment out the `send_slack_notification` functions in the android Fastfile
+:::
+
 
 ### Assets 
 
