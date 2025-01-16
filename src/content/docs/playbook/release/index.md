@@ -98,3 +98,23 @@ App store icons should be [1024x1024 px](https://developer.apple.com/design/huma
 To do this, navigate to the `Assets` section under `Runner/Runner` in XCode and press the "+" icon. Select `IOS` and then `IOS App Icon`. This will add an "AppIcon" asset to the project. You can drag a file from your finder onto one of the slots to update the launcher icon.
 
 ![App Store Icon](image.png)
+
+## Landing page
+
+### Assets
+
+#### Mockups
+I use this [Figma file](https://www.figma.com/design/Ujf1YMU8esGvbh5ZM2CnWo/Mobile-Device-Mockups-(Community)) for creating 2D mockups. 
+1. Double-click the center of a device and then select the `Image` button in the "Fill" section on the sidebar. 
+2. Choose your image. 
+3. Select the device frame.
+4. Scroll all the way down in the sidebar to the "Export" section and export your image.
+
+#### Badges
+[Google Play Badges](https://partnermarketinghub.withgoogle.com/brands/google-play/visual-identity/badge-guidelines/?folder=65628)
+
+![Get it on Google Play](image-1.png)
+
+[Apple App Store Badges](https://developer.apple.com/app-store/marketing/guidelines/)
+
+![Download on the App Store](image-2.png)
