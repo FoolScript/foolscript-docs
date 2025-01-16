@@ -1,6 +1,16 @@
 {
+  "Hugo Frontmatter": {
+    "prefix": "foolsFrontmatter",
+    "body": [
+      "---",
+      "title: ${1:title}",
+      "description: ${2:description}",
+      "---"
+    ],
+    "description": "Hugo Frontmatter"
+  },
   "Coming Soon": {
-    "prefix": "fComingSoon",
+    "prefix": "foolsComingSoon",
     "scope": "markdown",
     "body": [
       ":::tip[${1:Coming Soon}]",
@@ -10,7 +20,7 @@
     "description": "Creates a coming soon tip block"
   },
   "Resources": {
-    "prefix": "fResources",
+    "prefix": "foolsResources",
     "scope": "markdown",
     "body": [
       ":::note[Resources]",
@@ -20,5 +30,5 @@
       ":::"
     ],
     "description": "Creates a resources tip block"
-  }
+  },
 }

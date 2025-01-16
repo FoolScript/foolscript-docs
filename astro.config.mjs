@@ -42,6 +42,12 @@ export default defineConfig({
             { label: "RevenueCat", slug: "integrations/revenuecat" },
           ],
         },
+        {
+          label: "Playbook",
+          items: [
+            { label: "Release", slug: "playbook/release" },
+          ],
+        },
       ],
     }),
     markdoc(),
