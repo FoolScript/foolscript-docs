@@ -19,7 +19,15 @@ export default defineConfig({
       sidebar: [
         { label: "FoolScript", slug: "foolscript" },
         {
+          label: "Playbooks",
+          items: [
+            { label: "Mobile App", slug: "playbook/app" },
+            { label: "Landing Page", slug: "playbook/landing-page" },
+          ],
+        },
+        {
           label: "Template",
+          badge: "New",
           items: [
             { label: "Introduction", slug: "template/introduction" },
             { label: "Quick Start", slug: "template/quick-start" },
@@ -48,14 +56,6 @@ export default defineConfig({
                 { label: "RevenueCat", slug: "integrations/revenuecat" },
               ],
             },
-          ],
-        },
-
-        {
-          label: "Playbooks",
-          items: [
-            { label: "Mobile App", slug: "playbook/app" },
-            { label: "Landing Page", slug: "playbook/landing-page" },
           ],
         },
       ],

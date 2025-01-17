@@ -4,7 +4,7 @@ description: A wise fool's guide to software development
 ---
 
 > The fool doth think he is wise, but the wise man knows himself to be a fool.
-> - William Shakespeare
+- William Shakespeare
 
 I forget things, simple things, all the time. FoolScript is a collection of templates, tools, guides, and resources I've created to catch me when I forget the difference between TypeScript Records and Python Dictionaries.
 
