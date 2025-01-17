@@ -45,7 +45,8 @@ export default defineConfig({
         {
           label: "Playbook",
           items: [
-            { label: "Release", slug: "playbook/release" },
+            { label: "Mobile App", slug: "playbook/app" },
+            { label: "Landing Page", slug: "playbook/landing-page" },
           ],
         },
       ],
