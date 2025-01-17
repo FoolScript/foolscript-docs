@@ -2,54 +2,52 @@
 import { defineConfig } from "astro/config";
 import starlight from "@astrojs/starlight";
 
-import markdoc from "@astrojs/markdoc";
+import mdx from "@astrojs/mdx";
 
 // https://astro.build/config
 export default defineConfig({
-  integrations: [
-    starlight({
-      title: "FoolScript",
-      social: {
-        github: "https://github.com/sponsors/jtmuller5",
+  integrations: [starlight({
+    title: "FoolScript",
+    social: {
+      github: "https://github.com/sponsors/jtmuller5",
+    },
+    sidebar: [
+      {
+        label: "Overview",
+        items: [
+          { label: "Introduction", slug: "overview/introduction" },
+          { label: "Quick Start", slug: "overview/quick-start" },
+          { label: "App", slug: "overview/app" },
+          { label: "Admin App", slug: "overview/admin-app" },
+          { label: "Landing Page", slug: "overview/landing-page" },
+          { label: "CLI", slug: "overview/cli" },
+          { label: "VS Code Extension", slug: "overview/vs-code-extension" },
+        ],
       },
-      sidebar: [
-        {
-          label: "Overview",
-          items: [
-            { label: "Introduction", slug: "overview/introduction" },
-            { label: "Quick Start", slug: "overview/quick-start" },
-            { label: "App", slug: "overview/app" },
-            { label: "Admin App", slug: "overview/admin-app" },
-            { label: "Landing Page", slug: "overview/landing-page" },
-            { label: "CLI", slug: "overview/cli" },
-            { label: "VS Code Extension", slug: "overview/vs-code-extension" },
-          ],
-        },
-        {
-          label: "Platforms",
-          items: [
-            { label: "Firebase", slug: "platforms/firebase" },
-            { label: "Supabase", slug: "platforms/supabase" },
-            { label: "PocketBase", slug: "platforms/pocketbase" },
-            { label: "AppWrite", slug: "platforms/appwrite" },
-          ],
-        },
-        {
-          label: "Integrations",
-          items: [
-            { label: "Amplitude", slug: "integrations/amplitude" },
-            { label: "PostHog", slug: "integrations/posthog" },
-            { label: "RevenueCat", slug: "integrations/revenuecat" },
-          ],
-        },
-        {
-          label: "Playbook",
-          items: [
-            { label: "Release", slug: "playbook/release" },
-          ],
-        },
-      ],
-    }),
-    markdoc(),
-  ],
+      {
+        label: "Platforms",
+        items: [
+          { label: "Firebase", slug: "platforms/firebase" },
+          { label: "Supabase", slug: "platforms/supabase" },
+          { label: "PocketBase", slug: "platforms/pocketbase" },
+          { label: "AppWrite", slug: "platforms/appwrite" },
+        ],
+      },
+      {
+        label: "Integrations",
+        items: [
+          { label: "Amplitude", slug: "integrations/amplitude" },
+          { label: "PostHog", slug: "integrations/posthog" },
+          { label: "RevenueCat", slug: "integrations/revenuecat" },
+        ],
+      },
+      {
+        label: "Playbook",
+        items: [
+          { label: "Mobile App", slug: "playbook/app" },
+          { label: "Landing Page", slug: "playbook/landing-page" },
+        ],
+      },
+    ],
+  }), mdx()],
 });

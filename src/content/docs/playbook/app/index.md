@@ -1,5 +1,5 @@
 ---
-title: Release
+title: Mobile App Release Playbook
 description: Step by step instructions on how to release a Flutter app
 ---
 
