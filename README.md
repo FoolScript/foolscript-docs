@@ -32,4 +32,6 @@ Turn your foolish ideas into brilliant businesses.
     - Development environment setup
     - A/B test how-tos        
 
-#       
+# Deploy
+
+https://docs.astro.build/en/guides/deploy/google-firebase/
