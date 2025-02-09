@@ -3,7 +3,7 @@ title: Fool's CLI
 description: A snippet outlining how to use the CLI in FoolScript.
 ---
 
-This prompt is designed to help you document how to use the CLI in FoolScript.
+This prompt is designed to teach you how to use the CLI in FoolScript.
 
 ## Setup
 

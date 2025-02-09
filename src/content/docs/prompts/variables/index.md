@@ -3,7 +3,7 @@ title: Fool's Variables
 description: A snippet outlining how to declare variables in FoolScript
 ---
 
-This prompt is designed to help you document how to declare variables in FoolScript.
+This prompt is designed to teach you how to declare variables in FoolScript.
 
 ## Setup
 

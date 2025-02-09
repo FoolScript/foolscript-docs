@@ -11,7 +11,7 @@ To use the prompt in the VS Code Copilot Chat window, type `#` followed by the n
 
 ## CLI Installation
 
-To install the [FoolScript CLI](https://pub.dev/packages/fools), you can use the following command:
+To install the [FoolScript CLI](https://pub.dev/packages/fools), use the following command:
 
 ```bash
 dart pub global activate fools
@@ -25,4 +25,4 @@ fools start
 
 ## Manual Installation
 
-Navigate to the FoolScript docs repository and copy the contents of the `.github/prompts` folder into your project's `.github/prompts` folder.
+Navigate to the FoolScript docs repository and copy the contents of the [.github/prompts](https://github.com/FoolScript/foolscript-docs/tree/main/.github/prompts) folder into your project's `.github/prompts` folder.

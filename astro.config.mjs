@@ -27,6 +27,7 @@ export default defineConfig({
         {
           label: "Prompts",
           items: [
+            { label: "Fool's Start", slug: "prompts/start" },
             { label: "Fool's Print", slug: "prompts/print" },
             { label: "Fool's Types", slug: "prompts/types" },
             { label: "Fool's Variables", slug: "prompts/variables" },

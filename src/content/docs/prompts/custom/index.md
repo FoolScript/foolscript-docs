@@ -18,6 +18,10 @@ Create a new class called `MyClass` with the following properties:
 
 ### Poor Markdown Formatting
 
+:::caution
+This hack works best with GPT-4o. o3-mini is "smarter" and adds a second code block start after the empty markdown block :(
+:::
+
 If you want the output of your prompt to include code or formatted markdown, you need to use a small hack. At the end of your prompt, add this:
 
 ````txt

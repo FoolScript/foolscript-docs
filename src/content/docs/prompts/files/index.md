@@ -3,7 +3,7 @@ title: Fool's Files
 description: A snippet outlining how to work with files in FoolScript
 ---
 
-This prompt is designed to help you document how to work with files in FoolScript.
+This prompt is designed to teach you how to work with files in FoolScript.
 
 ## Setup
 

@@ -3,7 +3,7 @@ title: Fool's Boolean
 description: A snippet outlining the boolean logic in FoolScript
 ---
 
-This prompt is designed to help you document how to use boolean logic in FoolScript.
+This prompt is designed to teach you how to use boolean logic in FoolScript.
 
 ## Setup
 

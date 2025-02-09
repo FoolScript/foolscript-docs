@@ -3,7 +3,7 @@ title: Fool's Types
 description: A snippet outlining the types in FoolScript
 ---
 
-This prompt is designed to help you document how to work with types in FoolScript.
+This prompt is designed to teach you how to work with types in FoolScript.
 
 ## Setup
 

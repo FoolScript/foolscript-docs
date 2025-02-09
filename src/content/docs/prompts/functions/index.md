@@ -3,7 +3,7 @@ title: Fool's Functions
 description: A snippet outlining how to define and use functions in FoolScript.
 ---
 
-This prompt is designed to help you document how to define and use functions in FoolScript.
+This prompt is designed to teach you how to define and use functions in FoolScript.
 
 ## Setup
 

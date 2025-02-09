@@ -3,7 +3,7 @@ title: Fool's Enum
 description: A snippet outlining how to declare an enum in FoolScript
 ---
 
-This prompt is designed to help you document how to declare an enumeration in FoolScript.
+This prompt is designed to teach you how to declare an enumeration in FoolScript.
 
 ## Setup
 

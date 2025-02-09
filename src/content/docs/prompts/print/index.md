@@ -3,7 +3,7 @@ title: Fool's Print
 description: A snippet outlining how to print in FoolScript
 ---
 
-This prompt is designed to help you document how to print to the console in FoolScript. 
+This prompt is designed to teach you how to print to the console in FoolScript. 
 
 ## Setup
 
