@@ -22,6 +22,8 @@ export default defineConfig({
           items: [
             { label: "Introduction", slug: "foolscript/introduction" },
             { label: "Installation", slug: "foolscript/installation" },
+            { label: "Usage", slug: "foolscript/usage" },
+
           ],
         },
         {
