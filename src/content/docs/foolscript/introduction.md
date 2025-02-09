@@ -3,9 +3,7 @@ title: FoolScript
 description: Write Code Like a Fool
 ---
 
-> The fool doth think he is wise, but the wise man knows himself to be a fool.
-
--William Shakespeare
+> The fool doth think he is wise, but the wise man knows himself to be a fool. - William Shakespeare
 
 FoolScript is a term to represent all programming languages. In the age of AI, it is no longer enough to know one or two languages. You need to know all of them...or at least be able to write code in all of them.
 
