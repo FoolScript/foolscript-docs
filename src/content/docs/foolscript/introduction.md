@@ -7,7 +7,7 @@ description: Write Code Like a Fool
 
 FoolScript is a term to represent all programming languages. In the age of AI, it is no longer enough to know one or two languages. You need to know all of them...or at least be able to write code in all of them.
 
-The FoolScript prompts are designed to help you code in all languages and frameworks using features built into VS Code (primarily the [reusable prompts feature](https://code.visualstudio.com/docs/copilot/copilot-customization#_reusable-prompt-files-experimental)).
+The FoolScript prompts are designed to help you code in all languages and frameworks using features built into VS Code.
 
 After adding the FoolScript prompts to your project manually or with the [FoolScript CLI](https://pub.dev/packages/fools), you can use them in the VS Code Copilot Chat window by typing `#` followed by the name of the prompt file.
 
