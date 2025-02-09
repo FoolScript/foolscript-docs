@@ -35,6 +35,7 @@ export default defineConfig({
             { label: "Fool's Functions", slug: "prompts/functions" },
             { label: "Fool's Boolean", slug: "prompts/boolean" },
             { label: "Fool's CLI", slug: "prompts/cli" },
+            { label: "Custom Prompts", slug: "prompts/custom" },
           ],
         },
         /* {

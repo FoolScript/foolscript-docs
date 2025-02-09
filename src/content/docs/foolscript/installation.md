@@ -9,6 +9,20 @@ To create a custom prompt, simply create a markdown file in the `.github/prompts
 
 To use the prompt in the VS Code Copilot Chat window, type `#` followed by the name of the prompt file. For example, if you have a prompt file called `my-prompt.prompt.md`, you would type `#my-prompt` in the chat window.
 
+## CLI Installation
+
+To install the [FoolScript CLI](https://pub.dev/packages/fools), you can use the following command:
+
+```bash
+dart pub global activate fools
+```
+
+Once installed, run the following command in any repo to populate the `.github/prompts` folder with the FoolScript prompts:
+
+```bash
+fools start
+```
+
 ## Manual Installation
 
 Navigate to the FoolScript docs repository and copy the contents of the `.github/prompts` folder into your project's `.github/prompts` folder.
