@@ -1,0 +1,12 @@
+{
+  "This Frontmatter": {
+    "prefix": "thisFrontmatter",
+    "body": [
+      "---",
+      "title: ${1:title}",
+      "description: ${2:description}",
+      "---"
+    ],
+    "description": "Astro Frontmatter"
+  }
+}

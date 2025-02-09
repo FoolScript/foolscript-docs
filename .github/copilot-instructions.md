@@ -1,0 +1,1 @@
+FoolScript is a made up term for all programming languages. We are documenting a system for polyglot programming.

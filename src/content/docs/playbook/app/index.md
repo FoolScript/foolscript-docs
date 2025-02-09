@@ -1,5 +1,5 @@
 ---
-title: Mobile App Release Playbook
+title: Flutter App Release Playbook
 description: Step by step instructions on how to release a Flutter app
 ---
 
@@ -102,6 +102,12 @@ In the `ios/fastlane/Appfile` file, update the `app_identifier`, `apple_id`, `it
 If you don't want to send Slack notifications for new releases, delete or comment out the `send_slack_notification` functions in the android Fastfile
 :::
 
+Next, create an [app-specific password](https://appleid.apple.com/account/manage) and add it to the `.env.default` file in the `ios/fastlane` directory ([source](https://stackoverflow.com/a/74229749/12806961)):
+
+```
+FASTLANE_USER=<Apple USER ID>
+FASTLANE_APPLE_APPLICATION_SPECIFIC_PASSWORD=<App-Specific Password>
+```
 
 ### Assets 
 

@@ -17,17 +17,45 @@ export default defineConfig({
       },
       customCss: ["./src/styles/custom.css"],
       sidebar: [
-        { label: "FoolScript", slug: "foolscript" },
         {
+          label: "FoolScript",
+          items: [
+            { label: "Introduction", slug: "foolscript/introduction" },
+            { label: "Installation", slug: "foolscript/installation" },
+          ],
+        },
+        {
+          label: "Prompts",
+          items: [
+            { label: "Fool's Print", slug: "prompts/print" },
+            { label: "Fool's Types", slug: "prompts/types" },
+            { label: "Fool's Variables", slug: "prompts/variables" },
+            { label: "Fool's Logic", slug: "prompts/logic" },
+            { label: "Fool's Enums", slug: "prompts/enums" },
+            { label: "Fool's Functions", slug: "prompts/functions" },
+            { label: "Fool's Boolean", slug: "prompts/boolean" },
+            { label: "Fool's CLI", slug: "prompts/cli" },
+          ],
+        },
+        /* {
           label: "Playbooks",
           items: [
-            { label: "Mobile App", slug: "playbook/app" },
+            { label: "Flutter App", slug: "playbook/app" },
             { label: "Landing Page", slug: "playbook/landing-page" },
+          ],
+        },
+        {
+          label: "Starters",
+          items: [
+            { label: "Dart", slug: "starters/dart" },
+            { label: "TypeScript", slug: "starters/typescript" },
+            { label: "Python", slug: "starters/python" },
           ],
         },
         {
           label: "Template",
           badge: "New",
+          collapsed: true,
           items: [
             { label: "Introduction", slug: "template/introduction" },
             { label: "Quick Start", slug: "template/quick-start" },
@@ -52,12 +80,12 @@ export default defineConfig({
               label: "Integrations",
               items: [
                 { label: "Amplitude", slug: "integrations/amplitude" },
-                { label: "PostHog", slug: "integrations/posthog" },
+               
                 { label: "RevenueCat", slug: "integrations/revenuecat" },
               ],
             },
           ],
-        },
+        }, */
       ],
     }),
     mdx(),
